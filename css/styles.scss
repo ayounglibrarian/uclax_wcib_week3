@@ -1,0 +1,55 @@
+html {
+	background: url("../images/dots.jpg"); background-size: cover; background-attachment: fixed;
+}
+
+body {
+	font-family: helvetica, arial, sans-serif;
+
+ul {text-align: left;}
+
+	h1 {
+			color:#ecead4;
+			margin-left: 100px;
+			margin-bottom: 30px;
+			margin-top: 30px;
+	}
+
+}
+.main-wrapper {
+    position: relative;
+    margin: 0 auto;
+}
+.main, .main-wrapper {
+    width: 200px;
+		left: -400px;
+
+}
+.main {
+    border: 10px solid #ea8f89;
+    min-height: 200px;
+
+}
+.side {
+    width: 200px;
+    border: 10px solid #ea8f89;
+    min-height: 200px;
+    position: absolute;
+    top: 30px;
+		margin-bottom: 80px;
+    right: -300px;
+}
+.main, .side {
+    text-align: center;
+    padding: 10px;
+}
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #ea8f89;
+  color: white;
+  text-align: center;
+}
