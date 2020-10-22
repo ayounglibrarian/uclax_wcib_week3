@@ -19,7 +19,7 @@ body {
 
 .main, .main-wrapper {
   width: 200px;
-  left: -600px; }
+  left: -200px; }
 
 .main {
   border: 10px solid #ea8f89;
