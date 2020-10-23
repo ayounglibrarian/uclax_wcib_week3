@@ -21,6 +21,11 @@ ul {text-align: left;}
 			margin-top: 30px;
 	}
 
+	h2 {
+	    text-align: left;
+	}
+
+
 }
 .main-wrapper {
     position: relative;
